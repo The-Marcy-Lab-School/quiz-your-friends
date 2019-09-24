@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
     <title>Quiz Time!</title>
   </head>
   
@@ -14,7 +16,7 @@
     something from it! Enjoy!</p>
     
     <form action="test" method="post">
-      <fieldset>
+      <fieldset class="block fixed color themed">
         <legend>Question #1</legend>
         <label for="First Question">Let's start easy. <strong>What note lasts 2 beats?</strong></label>
         <ul>
@@ -25,7 +27,7 @@
           </ul>
       </fieldset>
       
-      <fieldset>
+      <fieldset class="block fixed color themed">
         <legend>Question #2</legend>
         <label for="Second Question">Now, <strong>what is the time signature 2/2 also known as?</strong> Check all that apply!</label>
         <ul>
@@ -35,6 +37,31 @@
           <li><input type="checkbox" name="name" value="common">Common time</li>
           <li><input type="checkbox" name="name" value="half">Half time</li>
         </ul>
+      </fieldset>
+      
+      <fieldset class="block fixed color themed">
+        <legend>Question #3</legend>
+        <label for="Third Question">Here's something a little more difficult. <strong>In your own terms, what is syncopation?</strong></label>
+        <textarea placeholder="Put your answer here!"></textarea>
+      </fieldset>
+      
+      <fieldset class="block fixed color themed">
+        <legend>Question #4</legend>
+        <label for="Fourth Question">If a scale has one flat, <strong>what is it called?</strong></label>
+        <input type="text" placeholder="Put your answer here!" name="letter">
+      </fieldset>
+      
+      <fieldset class="block fixed color themed">
+        <legend>Question #5</legend>
+        <label for="Fifth Question">Lastly, <strong>what is one of the well-known acronyms for remembering all the major scales?</strong> There's more than one answer you can get right!</label>
+        <select name="acros">
+          <option value="select">Please make a selection~</option>
+          <option value="first">First Come Get Dolls And Enjoy Barbies</option>
+          <option value="second">Father Charles Goes Down And Ends Battle</option>
+          <option value="third">Fast Cheetahs Go Drop Animals Easily Biting</option>
+          <option value="fourth">Fat Cats Go Down Alleys Eating Bagels</option>
+          <option value="fifth">Father Christmas Goes Down And Eats Bread</option>
+        </select>
       </fieldset>
     </form>
   </body>

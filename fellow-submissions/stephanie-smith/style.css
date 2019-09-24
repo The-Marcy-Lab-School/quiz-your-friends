@@ -1,0 +1,21 @@
+body {
+  background-color: #92F8F5;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  margin-right: 0;
+  background-color: #92F892;
+}

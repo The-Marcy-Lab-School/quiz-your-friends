@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
 
   <title>Document</title>
 </head>
@@ -13,23 +12,22 @@
 <header>
   <h1>Welcome To Paul Gaming quiz</h1>
   <p>In this quiz you will answer 5 questions about my favorite games.</p>
+  <img src="https://singularityhub.com/wp-content/uploads/2018/11/young-gamer-playing-video-game_shutterstock_624801452-1068x601.jpg">
 </header>
 <form action ="post">
    <fieldset>
     <fieldset class="game-name">
-      <ol>
+      <ul>
         <li>
-    <label for ="game">Call of Duty</label>
-    <input type="text" name="game" placeholder="What is your fav COD?" /> 
+    <label for ="game">1: What is your fav COD?</label>
+    <input type="text" name="game" placeholder="COD" /> 
      </li>
-  </ol>
+  </ul>
   </fieldset>
- 
-  
   <fieldset class="game-list">
     <ul>
       <li>
-        <label for="gamelist">What game on this list has a battle royale mode?</label>
+        <label for="gamelist">2: What game on this list has a battle royale mode?</label>
         <select name="gamelist">
           <option value="Fortnite">Fortnite</option>
           <option value="MW4">Modern Warfare Alpha</option>
@@ -40,11 +38,10 @@
       </li>
     </ul>
   </fieldset>
-
 <fieldset class="days">
   <ul>
     <li>
-      <label for="game-day">What days of the week do you think I play the most games on ? Check all that apply:</label>
+      <label for="game-day">3: What days of the week do you think I play the most games on ? Check all that apply:</label>
       <input type="checkbox" name="game-day" value="Sunday" checked>Sunday
       <input type="checkbox" name="game-day" value="Monday">Monday
       <input type="checkbox" name="game-day" value="Tuesday">Tuesday
@@ -54,47 +51,25 @@
       <input type="checkbox" name="game-day" value="Saturday">Saturday
     </li>
   </ul>
-</fieldset>
-
+</fieldset> 
 <fieldset class="system">
   <ul>
     <li>
-      <label for="game-system">Which game system do I play?</label>
+      <label for="game-system">4: Which game system do I play?</label>
       <input type="radio" name="game-system" value="PS4">PS4
       <input type="radio" name="game-system" value="Xbox">Xbox
       <input type="radio" name="game-system" value="Switch">Nintendo Switch
-
     </li>
   </ul>
 </fieldset>
-
-
 <fieldset class="ratio">
-  
 <ul>
   <li>
-    <label for="time">When do you believe is the best time to play video games?</label>
+    <label for="time">5: When do you believe is the best time to play video games?</label>
     <textarea name="time"></textarea>
-    
   </li>
 </ul>
-
-
-
 </fieldset>
-  
-  
-  
-  
 </form>
-
-
-  
- 
- 
- 
-  
-
-  
 </body>
 </html>

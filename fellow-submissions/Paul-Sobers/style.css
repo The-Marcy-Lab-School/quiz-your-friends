@@ -5,13 +5,15 @@ body{
   max-width:6000px;
   margin-left:25px;
   margin-top:30px;
+  font-family: 'Mansalva', cursive;
+  font-size: 28px;
 }
 
 fieldset{
     border:none;
     background-color:rgb(172,168,168);
     margin:0;
-   
+   padding:0;
 }
 
 li{
@@ -29,4 +31,13 @@ img{
      width:300px;
     height:300px;
     display:flex;
+}
+
+label{
+  display:block;
+  padding-bottom:10px;
+}
+
+.game-day li{
+    display:inline-block;
 }

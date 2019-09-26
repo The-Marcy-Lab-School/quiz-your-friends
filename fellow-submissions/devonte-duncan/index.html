@@ -2,11 +2,104 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<title></title>
+<title>Devy's Quiz</title>
 <meta charset=UTF-8>
+<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 <body>
-  
-
+  <form action="#" method="post">
+     <!--Personal INFO-->
+    <fieldset>  
+      <legend>Personal Info: </legend>
+       <section>
+        <div class="personal-info">
+            <label for="name"><p>Name:</p></label>
+            <input placeholder="Full Name" type="text" id="name" name="user_name">
+        </div>
+        <div class="personal-info">
+            <label for="mail"><p>E-mail</p><label>
+            <input placeholder="Gmails Only" type="email" id="mail" name="user_mail">
+        </div>
+        <div class="personal-info">
+          <p>Birthday:</p>
+              <input type="date" name="bday" max="2001-01-02">
+        </div>
+       </section>
+    </fieldset>
+    
+    <fieldset>
+      <legend>The Important Stuff: </legend>
+      
+       <div class="options">
+        <p class="question">Who would win in a fight to the death?</p>
+        <select name="Fight">
+          <option value="placeholder">Choose your fighter</option>
+          <option value="saitama">Saitama</option>
+          <option value="goku">Goku</option>
+          <option value="vegeta">Vegeta</option>
+          <option value="naruto">Naruto</option>
+        </select>
+       </div>
+       
+       <div class="options">
+           <p class="question">Pick one to eat for the rest of your life.</p>
+          <aside>
+              <input type="radio" name="food" value="pizza"> Pizza<br>
+              <input type="radio" name="food" value="pasta"> Pasta<br>
+          </aside>
+       </div>
+       
+       <div class="options">
+           
+          <div>
+            <p class="question">Three of these guys protect you while the others try to kill you. Choose your three.</p>
+             <div id="multiple-choice">
+              <ul>
+                <li>
+                  <input type="checkbox" name="character" value="wolverine">Wolverine<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="spider-man">Spider-Man<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Hulk">Hulk<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Blade">Blade<br>
+                </li>
+             </ul>
+             <ul>
+                <li>
+                  <input type="checkbox" name="character" value="Juggernaught">Juggernaught<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="The Thing">The Thing<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Deadpool">Deadpool<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Drax">Drax<br>
+                </li>
+             </ul>
+             <ul>
+                <li>
+                  <input type="checkbox" name="character" value="Captain America">Captain America<br>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Ant-Man">Ant-Man<br>
+                </li>
+              </ul>
+            </div>
+          </div>
+       </div>
+    </fieldset>
+    <fieldset>
+        <legend>Tell Me More</legend>
+        <p class="question">Describe your favorite anime character without using their name.</p>
+        <textarea placeholder="Type it all in here buddy!" rows="4" cols="50"></textarea>
+    </fieldset>
+  </form>
+  <center><button type="button">SUBMIT</button></center>
 </body>
 </html>

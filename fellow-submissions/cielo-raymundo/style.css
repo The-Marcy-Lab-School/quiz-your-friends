@@ -1,0 +1,36 @@
+body{
+    display: inline;
+    background-color: #ffacee;
+    font-family: 'Mukta', sans-serif;
+}
+li{
+    list-style: none;
+}
+form{
+    width:40%;
+    margin:0 auto;
+}
+fieldset{
+    padding:15px 20px;
+    border:none;
+    background-color: #8e6cb7;
+}
+h1{
+    text-align: center;
+}
+textarea{
+    max-height: 200px;
+    max-width: 500px;
+    min-height: 200px;
+    min-width: 500px;
+}
+label{
+    display: block;
+    background-color: #ac9bc0;
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+    margin: 20px auto;
+    display: block;
+}

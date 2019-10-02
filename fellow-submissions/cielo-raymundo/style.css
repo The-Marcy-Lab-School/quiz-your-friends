@@ -24,7 +24,12 @@ textarea{
     min-height: 200px;
     min-width: 500px;
 }
-label{
+h2{
+    display: block;
+    background-color: #ac9bc0;
+    margin-top: 10px;
+}
+fieldset>label{
     display: block;
     background-color: #ac9bc0;
     margin-top: 10px;

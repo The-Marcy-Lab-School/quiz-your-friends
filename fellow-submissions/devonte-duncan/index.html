@@ -21,7 +21,7 @@
             <input placeholder="Gmails Only" type="email" id="mail" name="user_mail">
         </div>
         <div class="personal-info">
-          <p>Birthday:</p>
+          <label for="bday"><p>Birthday:</p></label>
               <input type="date" name="bday" max="2001-01-02">
         </div>
        </section>
@@ -31,7 +31,7 @@
       <legend>The Important Stuff: </legend>
       
        <div class="options">
-        <p class="question">Who would win in a fight to the death?</p>
+        <label for="Fight"><p class="question">Who would win in a fight to the death?</p></label>
         <select name="Fight">
           <option value="placeholder">Choose your fighter</option>
           <option value="saitama">Saitama</option>
@@ -42,61 +42,71 @@
        </div>
        
        <div class="options">
-           <p class="question">Pick one to eat for the rest of your life.</p>
+          <label for="pick one"><p class="question">Pick one to eat for the rest of your life.</p></label>
           <aside>
-              <input type="radio" name="food" value="pizza"> Pizza<br>
-              <input type="radio" name="food" value="pasta"> Pasta<br>
+              <input type="radio" name="food" value="pizza"> 
+              <label for="pizza">Pizza</label>
+              <input type="radio" name="food" value="pasta"> 
+              <label for="pasta">Pasta</label>
           </aside>
        </div>
        
-       <div class="options">
-           
           <div>
-            <p class="question">Three of these guys protect you while the others try to kill you. Choose your three.</p>
+            <lable for="Pick allies"><p class="question">Three of these guys protect you while the others try to kill you. Choose your three.</p></lable>
              <div id="multiple-choice">
               <ul>
                 <li>
-                  <input type="checkbox" name="character" value="wolverine">Wolverine<br>
+                  <input type="checkbox" name="character" value="wolverine">Wolverine
+                  <label for="Wolverine"></label>
                 </li>
                 <li>
-                  <input type="checkbox" name="character" value="spider-man">Spider-Man<br>
+                  <input type="checkbox" name="character" value="spider-man">
+                  <label for="Spider-Man">Spider-Man</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="character" value="Hulk">Hulk<br>
+                  <input type="checkbox" name="character" value="Hulk">
+                  <label for="Hulk">Hulk</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="character" value="Blade">Blade<br>
-                </li>
-             </ul>
-             <ul>
-                <li>
-                  <input type="checkbox" name="character" value="Juggernaught">Juggernaught<br>
-                </li>
-                <li>
-                  <input type="checkbox" name="character" value="The Thing">The Thing<br>
-                </li>
-                <li>
-                  <input type="checkbox" name="character" value="Deadpool">Deadpool<br>
-                </li>
-                <li>
-                  <input type="checkbox" name="character" value="Drax">Drax<br>
+                  <input type="checkbox" name="character" value="Blade">
+                  <label for="Blade">Blade</label>
                 </li>
              </ul>
              <ul>
                 <li>
-                  <input type="checkbox" name="character" value="Captain America">Captain America<br>
+                  <input type="checkbox" name="character" value="Juggernaught">
+                  <label for="Juggernaught">Juggernaught</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="character" value="Ant-Man">Ant-Man<br>
+                  <input type="checkbox" name="character" value="The Thing">
+                  <label for="The Thing">The Thing</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Deadpool">
+                  <label for="Deadpool">Deadpool</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Drax">
+                  <label for="Drax">Drax</label>
+                </li>
+             </ul>
+             <ul>
+                <li>
+                  <input type="checkbox" name="character" value="Captain America">
+                  <label for="Captain America">Captain America</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Ant-Man">
+                  <label for="Ant-Man">Ant-Man</label>
                 </li>
               </ul>
             </div>
           </div>
-       </div>
+       
     </fieldset>
     <fieldset>
         <legend>Tell Me More</legend>
-        <p class="question">Describe your favorite anime character without using their name.</p>
+        <label for="Description"><p class="question">Describe your favorite anime character without using their name.</p></label>
         <textarea placeholder="Type it all in here buddy!" rows="4" cols="50"></textarea>
     </fieldset>
   </form>

@@ -66,6 +66,7 @@ ul{
 #multiple-choice{
   display: inline-flex;
   width: 100%;
+  padding: 10px;
 }
 
 button{
@@ -74,4 +75,8 @@ button{
   background-color: #1089ff;
   border:2px solid #E5E5E5;
   text-align: center;
+}
+
+section{
+  margin-left: 50px
 }

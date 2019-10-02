@@ -1,0 +1,40 @@
+body{
+    background-color:#484349;
+    font-family:Arial, Helvetica, sans-serif;
+}
+main{
+    width: 80%;
+    height:100%;
+    max-width:1200px;
+    margin: 0 auto;
+    border:0.5px solid grey;
+    background-color:#F7F0F0;
+}
+header {
+  color:#fff;
+  background-color: #2D93AD;
+  text-align: center;
+  padding: 0 20px 20px 0px;
+  border-bottom:0.5px solid grey;
+}
+h1 {
+  font-size: 80px;
+  padding: 35px 0px 20px 0px; 
+  margin-top:0;
+  margin-bottom:0px;
+}
+fieldset{
+    margin:0px 10px 5px 10px;
+}
+label{
+    padding-top:5px;
+    display:block;
+}
+textarea{
+    display:block;
+    width:350px;
+    height:200px;
+}
+select{
+    max-width:300px;
+}

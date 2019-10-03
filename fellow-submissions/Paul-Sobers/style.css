@@ -33,11 +33,8 @@ img{
     display:flex;
 }
 
-label{
+legend{
   display:block;
   padding-bottom:10px;
 }
 
-.game-day li{
-    display:inline-block;
-}

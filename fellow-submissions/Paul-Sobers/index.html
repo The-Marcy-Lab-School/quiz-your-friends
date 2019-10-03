@@ -21,14 +21,14 @@
       <ul>
         <li>
     <label for ="game">1: What is your fav COD?</label>
-    <input type="text" name="game" placeholder="COD" /> 
+    <input type="text" id ="game" name="games" placeholder="COD" /> 
      </li>
   </ul>
   </fieldset>
   <fieldset class="game-list">
     <ul>
       <li>
-        <label for="gamelist">2: What game on this list has a battle royale mode?</label>
+        <legend for="gamelist">2: What game on this list has a battle royale mode?</legend>
         <select name="gamelist">
           <option value="Fortnite">Fortnite</option>
           <option value="MW4">Modern Warfare Alpha</option>
@@ -42,25 +42,52 @@
 <fieldset class="days">
   <ul>
     <li>
-      <label for="game-day">3: What days of the week do you think I play the most games on ? Check all that apply:</label>
+      <legend>3: What days of the week do you think I play the most games on ? Check all that apply:</legend>
+      <label for="Sunday">
       <input type="checkbox" name="game-day" value="Sunday" id="game-day" checked>Sunday
-      <input type="checkbox" name="game-day" value="Monday" id="game-day">Monday
-      <input type="checkbox" name="game-day" value="Tuesday" id="game-day">Tuesday
-      <input type="checkbox" name="game-day" value="Wednesday" id="game-day">Wednesday
-      <input type="checkbox" name="game-day" value="Thursday" id="game-day">Thursday
-      <input type="checkbox" name="game-day" value="Friday" id="game-day">Friday
-      <input type="checkbox" name="game-day" value="Saturday" id="game-day">Saturday
+      </label>
+      
+      <label for="Monday">
+      <input type="checkbox" name="game-day" value="Monday" id="Monday">Monday
+      </label>
+      
+      <label for="">
+      <input type="checkbox" name="game-day" value="Tuesday" id="Tuesday">Tuesday
+      </label>
+      
+      <label for="Wednesday">
+      <input type="checkbox" name="game-day" value="Wednesday" id="Wednesday">Wednesday
+      </label>
+      
+      <label for="Thursday">
+      <input type="checkbox" name="game-day" value="Thursday" id="Thursday">Thursday
+      </label>
+      <label for="Friday">
+      <input type="checkbox" name="game-day" value="Friday" id="Friday">Friday
+      </label>
+      <label for="Saturday">
+      <input type="checkbox" name="game-day" value="Saturday" id="Saturday">Saturday
+      </label>
     </li>
   </ul>
 </fieldset> 
 <fieldset class="system">
   <ul>
     <li>
-      <label for="game-system">4: Which game system do I play?</label>
-      <input type="radio" name="game-system" value="PS4">PS4
-      <input type="radio" name="game-system" value="Xbox">Xbox
-      <input type="radio" name="game-system" value="Switch">Nintendo Switch
+      <legend>4: Which game system do I play?</legend>
+       <label for ="game-systems1">
+      <input type="radio" id ="game-systems1" name="game-systems" value="PS4">PS4
+     </label>
+     
+      <label for ="game-systems2">
+      <input type="radio" id="game-systems2"name="game-system" value="Xbox">Xbox
+      </label>
+      
+       <label for ="game-systems3">
+      <input type="radio" id ="game-systems3 "name="game-system" value="Switch">Nintendo Switch
+    </label>
     </li>
+    
   </ul>
 </fieldset>
 <fieldset class="ratio">

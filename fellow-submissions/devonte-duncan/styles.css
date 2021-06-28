@@ -1,0 +1,82 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+
+
+section{
+  display: flex;
+  text-align: center;
+}
+
+div{
+  display: block;
+  border: 2px solid black;
+}
+
+
+section input:nth-of-type(1){
+  height: 35px;
+}
+
+select{
+  height: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px
+}
+
+fieldset{
+  background-color: #E5E5E5 ;
+  border-color: #1089ff;
+  width: 600px;
+  margin: 0 auto;
+}
+
+input[type="text"]::placeholder {  
+    text-align: center; 
+}
+
+input[type="email"]::placeholder {  
+    text-align: center; 
+}
+
+input[type="date"]::placeholder {  
+    text-align: center; 
+}
+
+.question{
+  margin-left: 20px;
+}
+
+aside{
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+ul{
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#multiple-choice{
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+}
+
+button{
+  height: 60px;
+  width: 300px;
+  background-color: #1089ff;
+  border:2px solid #E5E5E5;
+  text-align: center;
+}
+
+section{
+  margin-left: 50px
+}

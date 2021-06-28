@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>Devy's Quiz</title>
+<meta charset=UTF-8>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+  <form action="#" method="post">
+     <!--Personal INFO-->
+    <fieldset>  
+      <legend>Personal Info: </legend>
+       <section>
+        <div class="personal-info">
+            <label for="name"><p>Name:</p></label>
+            <input placeholder="Full Name" type="text" id="name" name="user_name">
+        </div>
+        <div class="personal-info">
+            <label for="mail"><p>E-mail</p><label>
+            <input placeholder="Gmails Only" type="email" id="mail" name="user_mail">
+        </div>
+        <div class="personal-info">
+          <label for="bday"><p>Birthday:</p></label>
+              <input type="date" name="bday" max="2001-01-02">
+        </div>
+       </section>
+    </fieldset>
+    
+    <fieldset>
+      <legend>The Important Stuff: </legend>
+      
+       <div class="options">
+        <label for="Fight"><p class="question">Who would win in a fight to the death?</p></label>
+        <select name="Fight">
+          <option value="placeholder">Choose your fighter</option>
+          <option value="saitama">Saitama</option>
+          <option value="goku">Goku</option>
+          <option value="vegeta">Vegeta</option>
+          <option value="naruto">Naruto</option>
+        </select>
+       </div>
+       
+       <div class="options">
+          <label for="pick one"><p class="question">Pick one to eat for the rest of your life.</p></label>
+          <aside>
+              <input type="radio" name="food" value="pizza"> 
+              <label for="pizza">Pizza</label>
+              <input type="radio" name="food" value="pasta"> 
+              <label for="pasta">Pasta</label>
+          </aside>
+       </div>
+       
+          <div>
+            <lable for="Pick allies"><p class="question">Three of these guys protect you while the others try to kill you. Choose your three.</p></lable>
+             <div id="multiple-choice">
+              <ul>
+                <li>
+                  <input type="checkbox" name="character" value="wolverine">Wolverine
+                  <label for="Wolverine"></label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="spider-man">
+                  <label for="Spider-Man">Spider-Man</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Hulk">
+                  <label for="Hulk">Hulk</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Blade">
+                  <label for="Blade">Blade</label>
+                </li>
+             </ul>
+             <ul>
+                <li>
+                  <input type="checkbox" name="character" value="Juggernaught">
+                  <label for="Juggernaught">Juggernaught</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="The Thing">
+                  <label for="The Thing">The Thing</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Deadpool">
+                  <label for="Deadpool">Deadpool</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Drax">
+                  <label for="Drax">Drax</label>
+                </li>
+             </ul>
+             <ul>
+                <li>
+                  <input type="checkbox" name="character" value="Captain America">
+                  <label for="Captain America">Captain America</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="character" value="Ant-Man">
+                  <label for="Ant-Man">Ant-Man</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+       
+    </fieldset>
+    <fieldset>
+        <legend>Tell Me More</legend>
+        <label for="Description"><p class="question">Describe your favorite anime character without using their name.</p></label>
+        <textarea placeholder="Type it all in here buddy!" rows="4" cols="50"></textarea>
+    </fieldset>
+  </form>
+  <center><button type="button">SUBMIT</button></center>
+</body>
+</html>

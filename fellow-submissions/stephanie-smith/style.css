@@ -1,0 +1,59 @@
+body {
+  background-color: #92F8F5;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+}
+
+ul {
+    list-style: none;
+}
+
+.block.fixed {
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #92F892;
+  font-size: 25px;
+  border: 2px solid black;
+  letter-spacing: 1px;
+}
+
+.color.themed {
+  --block-background-color: #92F892;
+  --block-shadow-color: #A992F8;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+fieldset label {
+  font-weight: medium;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  display: block;
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.questions {
+  text-align: left;
+}
